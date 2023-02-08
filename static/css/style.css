@@ -1,0 +1,153 @@
+body {
+    background-color: whitesmoke;
+}
+/* auth */
+.form-header {
+    width: 40cm;
+    height: 3.6cm;
+    margin-left: -0.2cm;
+    background-color: black;
+}
+
+.facebook {
+    text-decoration: none;
+    color: white;
+}
+
+.instagram {
+    text-decoration: none;
+    color: white;
+}
+
+.youtube {
+    text-decoration: none;
+    color: white;
+}
+
+.tiktok {
+    text-decoration: none;
+    color: white;
+}
+
+.form-header-icon {
+    margin-top: -70px;
+    margin-left: 30cm;
+    word-spacing: 20px;
+}
+
+.image-header {
+    margin-left: 2cm;
+    margin-top: -2.2cm;
+}
+
+.category-header {
+    word-spacing: 20px;
+    margin-left: 12cm;
+    margin-top: -40px;
+}
+
+.category-about {
+    text-decoration: none;
+    font-size: 2pc;
+    color: white;
+}
+
+.category-featured {
+    text-decoration: none;
+    font-size: 2pc;
+    color: white;
+}
+
+.category-blog {
+    text-decoration: none;
+    font-size: 2pc;
+    color: white;
+}
+
+.category-contact {
+    text-decoration: none;
+    font-size: 2pc;
+    color: white;
+}
+
+ .faq {
+    width: 40cm;
+    height: 12cm;
+    background-color: black;
+    margin-top: 800px;
+    margin-left: -0.2cm;
+    z-index: 1; 
+} 
+
+.note {
+    color: white;
+    text-decoration: none;
+    font-size: 2.3pc;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 6cm;
+    margin-top: 200px;
+    z-index: 2;
+}
+
+.text-faq {
+    color: white;
+    margin-left: 6cm;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* informations */
+.about-me {
+    /* margin-top: 100px;
+    margin-left: 5cm; */
+    line-height: 0.4cm;
+    font-size: 70px;
+}
+.informations {
+    margin-top: -1100px;
+    margin-left: 5cm;
+}
+.text-about-me {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* BLOG */
+.about-us {
+    width: 14cm;
+    height: 16cm;
+    background-color: rgb(37, 37, 38);
+    margin-top: -1150px;
+    margin-left: 2cm;
+    border-radius: 10%;
+    z-index: 3;
+    color: white;
+}
+
+#title-about {
+    margin-left: 1cm;
+    line-height: 2cm;
+    font-size: 2.3pc;
+    z-index: 4;
+}
+
+.form-contact {
+    font-size: 1.2pc;
+    color: white;
+    line-height: 1cm;
+    margin-left: 1cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* contac */
+.form-email {
+    width: 14cm;
+    height: 16cm;
+    background-color: rgb(37, 37, 38);
+    margin-top: -1150px;
+    margin-left: 2cm;
+    border-radius: 10%;
+    z-index: 3;
+    color: white;
+}
+.a {
+    margin-left: 9cm;
+}

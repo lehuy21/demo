@@ -1,0 +1,3 @@
+function outWin() {
+    return Date()
+}

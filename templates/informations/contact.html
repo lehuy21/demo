@@ -1,0 +1,39 @@
+<html>
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <title>Contact</title>
+    {% include 'auth/index.html' %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+<body>
+    <div class="form-email" style="margin-left: 2cm; margin-top: -1170px; background-color: rgb(192, 192, 192); border-radius: 10px; height: 10cm; width: 15cm;">
+        <h1 style="margin-left: 4.8cm;">Contact Us</h1>
+        <form method="post" style="margin-left: 0.5cm;">
+            {% csrf_token %}
+            <!-- {{ form.as_p }} -->
+            <p>
+                <label for="id_from_email" style="font-size: 1.3pc;">From email:</label>
+                <input style="margin-left:0.9cm; width: 9.1cm;"  type="email" name="from_email" required id="id_from_email">
+            </p>
+
+            
+            <p>
+                <label for="id_subject" style="font-size: 1.3pc;">Subject:</label>
+                <input style="margin-left: 1.8cm; width: 9.1cm;" type="text" name="subject" required id="id_subject">
+            </p>
+
+            
+            <p>
+                <label for="id_message" style="font-size: 1.3pc;">Message:</label>
+                <textarea style="margin-left: 1.5cm; width: 9.1cm;" name="message" cols="40" rows="10" required id="id_message"> </textarea>
+            </p>
+
+            <div class="form-actions">
+                <button type="submit" style="margin-left: 4cm; width: 4cm; height: 1cm; border-radius: 10px; font-size: 1.3pc; font-family: monospace;"  >Send</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
